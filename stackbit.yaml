@@ -5,3 +5,8 @@ ssgName: nextjs
 cmsName: contentful
 nodeVersion: '12'
 publishDir: out
+import:
+  type: contentful
+  contentFile: contentful-exports/export.json
+  spaceIdEnvVar: CONTENTFUL_SPACE_ID
+  accessTokenEnvVar: CONTENTFUL_ACCESS_TOKEN
