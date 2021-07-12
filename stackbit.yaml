@@ -8,5 +8,5 @@ publishDir: out
 import:
   type: contentful
   contentFile: contentful-exports/export.json
-  spaceIdEnvVar: CONTENTFUL_SPACE_ID
-  accessTokenEnvVar: CONTENTFUL_ACCESS_TOKEN
+  spaceIdEnvVar: xbzrbwx5pzxg
+  accessTokenEnvVar: CFPAT-h_nB4csChSPlkDurKA9YD2tnC3XdhLHc8iW30u64v_U
