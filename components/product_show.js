@@ -6,12 +6,21 @@ import {useRouter} from "next/router"
 import * as contentful from "contentful";
 import Section from "./section";
 import LocaleSelect from "./locale_select";
-import config from "./config";
+// import config from "./config";
 // import ReactJson from "react-json-view";
 
 import marked from "marked";
 
 // const Spinner = require("react-spinkit");
+
+const config = {
+  
+    space_id: 'xbzrbwx5pzxg',
+    delivery_token: 'token',
+    environment: 'demo'
+    
+    
+}
 
 const TEST_IMAGE_URL =
   "https://images.ctfassets.net/34zhepmq2vpx/4ClyFr0XGwcOiKUMyyiMKO/c47e029fa790bf3c01b8900bd6cacf87/TWD_Test_Image6.png";
